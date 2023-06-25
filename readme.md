@@ -16,3 +16,4 @@ this script was made for the computer networking class n°1 as part of the final
 - To stop the attack just close the terminal.
 ### Contributors
 - :beginner:Vicente Moya
+- :floppy_disk:Ignacio González
