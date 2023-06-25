@@ -1,8 +1,10 @@
 #libraries
 import threading
+import multiprocessing
 from scapy.layers.inet import IP, TCP
 from scapy.sendrecv import send
 from random import randint
+from sys import argv
 
 
 
@@ -59,5 +61,9 @@ def main():
 
 #main
 if __name__ == '__main__':
-    main()
+    for i in range(argv[2]): #Number of process must be a parameter given by de execution line
+        process = multiprocessing.Process(main())
+        process.start()
+        process.join()
+
 
