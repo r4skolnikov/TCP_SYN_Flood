@@ -1,7 +1,7 @@
 ## TCP SYN Flood dos attack with python3
 ### Description
 this script was made for the computer networking class n°1 as part of the final project for the course, which consisted in trying to take the university website out of service using a SYN flood attack.
-### State
+### Status
 :ballot_box_with_check:finished:ballot_box_with_check:
 ### Requirements
 - threading
